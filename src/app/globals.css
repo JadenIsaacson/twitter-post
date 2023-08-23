@@ -1,0 +1,79 @@
+body {
+  background: #e6ecf0;
+  font-family: 'Asap', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+*:focus {
+  outline: none;
+}
+
+.post-container {
+  max-width:490px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius:3px;
+  padding: 30px;
+  border-bottom: 1px solid #e6ecf0;
+  border-top: 1px solid #e6ecf0;
+}
+.post-header {
+  display: flex;
+  align-items:flex-start;
+  font-size:14px;
+  flex-direction: column;
+}
+.post-header-info {
+  font-weight:bold;
+  display: flex;
+}
+.post-header-info span {
+  color:#657786;
+  font-weight:normal;
+  margin-left: 5px;
+}
+.post-header-info p {
+  font-weight:normal;
+  margin-top: 5px;
+  
+}
+.post-info-counts {
+  display: flex;
+  margin-top: 10px;
+}
+.post-info-counts div {
+  display: flex;
+  margin-right: 20px;
+}
+.post-info-counts div svg {
+  color:#657786;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px;
+  width: 221px;
+  height: 82px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  font-family: 'Asap', sans-serif;
+}
+.post-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-input svg {
+  color:#657786;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
